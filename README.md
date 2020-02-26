@@ -15,7 +15,12 @@ open terminal and change directory to your desired folder, then:
 $ git clone git@github.com:libscode/OpenCV.git YourAppName
 $ cd YourAppName
 $ yarn install
-$ yarn run rm-git && npm run androidx
+$ cd ios && pod install
+```
+## Run Your App
+```
+$ npx react-native run-android
+$ npx react-native run-ios
 ```
 ## License
 The code is available at [GitHub][home] under the [MIT license][license-url].

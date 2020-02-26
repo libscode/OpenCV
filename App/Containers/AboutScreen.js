@@ -29,8 +29,8 @@ class AboutScreen extends Component {
       headerStyle: headerStyles.default,
       headerTitleStyle: headerStyles.title,
       headerTitle: "About Me",
-      headerLeft: <ArrowBack onPress={() => navigation.goBack() } />,
-      headerRight: <View />
+      headerTitleAlign: "center",
+      headerLeft: () => <ArrowBack onPress={() => navigation.goBack() } />,
     }
   }
 
@@ -223,7 +223,7 @@ class AboutScreen extends Component {
 
         <Content style={{backgroundColor:Colors.muted}}>
           <View style={styles.headerWrapper}>
-            <Image source={{ uri: 'https://i.imgur.com/r4S8tpr.jpg' }} style={styles.avatar} />
+            <Image source={{ uri: 'https://api.adorable.io/avatars/250/OpenCV.png' }} style={styles.avatar} />
             <Text style={styles.nameLabel}>Your Name</Text>
           </View>
 

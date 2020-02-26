@@ -1,5 +1,5 @@
 const type = {
-  hello: 'SueEllenFrancisco-Regular',
+  hello: 'SueEllenFrancisco',
   light: 'Montserrat-Light',
   regular: 'Montserrat-Regular',
   medium: 'Montserrat-Medium',
