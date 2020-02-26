@@ -20,8 +20,7 @@ class SkillScreen extends Component {
       headerStyle: headerStyles.default,
       headerTitleStyle: headerStyles.title,
       headerTitle: "",
-      headerLeft: <ArrowBack onPress={() => navigation.goBack() } />,
-      headerRight: <View />
+      headerLeft: () => <ArrowBack onPress={() => navigation.goBack() } />,
     }
   }
 

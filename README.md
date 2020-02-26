@@ -1,26 +1,32 @@
 #  OpenCV
-OpenCV is an open source mobile app to see their cv
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-[![MIT License][license-image]][license-url] [![Stars][stars-image]][stars-url] [![js-standard-style][js-standard]][js-standard-url] [![React Native][package-react-native]][react-native-url]
+* Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 
-## Prerequisites
-- Xcode or Android Studio installed and exported on your ~/.bash_profile or similar
-- JDK 1.8
-- Node >= 12.*
-- react-native-cli
+## :arrow_up: How to Setup
 
-## Installation
-open terminal and change directory to your desired folder, then:
-```
-$ git clone git@github.com:libscode/OpenCV.git YourAppName
-$ cd YourAppName
-$ yarn install
-$ yarn run rm-git && npm run androidx
-```
-## License
-The code is available at [GitHub][home] under the [MIT license][license-url].
+**Step 1:** git clone this repo:
 
-## Additional
+**Step 2:** cd to the cloned repo:
+
+**Step 3:** Install the Application with `yarn` or `npm i`
+
+
+## :arrow_forward: How to Run App
+
+1. cd to the repo
+2. Run Build for either OS
+  * for iOS
+    * run `npx react-native run-ios`
+  * for Android
+    * Run Genymotion
+    * run `npx react-native run-android`
+
+## :no_entry_sign: Standard Compliant
+
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+This project adheres to Standard.  Our CI enforces this, so we suggest you enable linting to keep your project compliant during development.
+
 **To Lint on Commit**
 
 This is implemented using [husky](https://github.com/typicode/husky). There is no additional setup needed.
@@ -59,24 +65,3 @@ The `.env` file is ignored by git keeping those secrets out of your repo.
 2. Add your config variables
 3. Follow instructions at [https://github.com/luggit/react-native-config#setup](https://github.com/luggit/react-native-config#setup)
 4. Done!
-
-## Contributors
-Suggestions and contributions are welcome via Pull Requests.
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars3.githubusercontent.com/u/8052370" width="100px;"/><br /><sub><b>Rully Ardiansyah</b></sub>](https://github.com/DeVoresyah)<br />[💻](https://github.com/libscode/OpenCV/commits?author=DeVoresyah "Code") [📖](https://github.com/libscode/OpenCV/commits?author=DeVoresyah "Documentation") [💬](#question-devoresyah "Answering Questions") [👀](#review-devoresyah "Reviewed Pull Requests") [💡](#example-devoresyah "Examples") | [<img src="https://cdn.dribbble.com/users/3843915/avatars/normal/data?1563263378" width="100px;"/><br /><sub><b>Arkanpo</b></sub>](https://dribbble.com/arkanpo)<br /> [🎨](#logo-design "UI/UX Design") [💡](#concept-arkanpo "Concept") |
-| :---: | :---: |
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-[home]: https://github.com/libscode/OpenCV
-
-[license-image]: https://img.shields.io/github/license/libscode/OpenCV.svg?style=flat
-[license-url]: LICENSE
-
-[stars-image]: https://img.shields.io/github/stars/libscode/OpenCV.svg?style=flat
-[stars-url]: https://github.com/DeVoresyah/JeptureApp/stargazers
-
-[js-standard]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
-[js-standard-url]: http://standardjs.com/
-
-[package-react-native]: https://img.shields.io/badge/react--native-0.59.9-blue.svg?style=flat
-[react-native-url]: https://github.com/facebook/react-native

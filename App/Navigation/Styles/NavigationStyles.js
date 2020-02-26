@@ -11,6 +11,8 @@ export default StyleSheet.create({
     fontFamily: Fonts.type.medium,
     color: Colors.black,
     textAlign: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
     alignSelf: 'center',
     flex: 1,
     fontSize: 17,

@@ -30,7 +30,7 @@ import { Colors } from '../Themes'
 
 class HomeScreen extends Component {
   static navigationOptions = ({ navigation }) => ({
-    header: null
+    headerShown: false
   })
 
   constructor (props) {
@@ -133,7 +133,7 @@ class HomeScreen extends Component {
               </TouchableOpacity>
             </View>
 
-            <Image source={{ uri: 'https://i.imgur.com/r4S8tpr.jpg' }} style={styles.avatar} />
+            <Image source={{ uri: 'https://api.adorable.io/avatars/250/OpenCV.png' }} style={styles.avatar} />
           </View>
 
           <View style={{flex:1}}>
